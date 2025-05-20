@@ -24,10 +24,10 @@ A lightweight Chrome extension that integrates AI powered reply generation direc
 ---
 
 ## Tech Stack 
--**Frontend** - React, Material UI, Framer Motion
--**Backend** - Java SpringBoot, RESTful APIs
--**AI Integration** - Gemini AI API
--**Extension** - JavaScript
+- **Frontend** - React, Material UI, Framer Motion
+- **Backend** - Java SpringBoot, RESTful APIs
+- **AI Integration** - Gemini AI API
+- **Extension** - JavaScript
 
 ---
 
