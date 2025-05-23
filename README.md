@@ -35,40 +35,40 @@ A lightweight Chrome extension that integrates AI powered reply generation direc
 ### 1.Backend - Java SpringBoot
 
 NOTE:
-1.Some prerequisite installations are - IDE like **IntelliJ or Eclipse**, **Java17+**, **Maven**
-2.Make sure the backend is running on http://localhost:8080, which the React app and Chrome extension use.
-3.Configure your Gemini API key and url inside the project as environment variables or else it won't work.
+- 1.Some prerequisite installations are - IDE like **IntelliJ or Eclipse**, **Java17+**, **Maven**
+- 2.Make sure the backend is running on http://localhost:8080, which the React app and Chrome extension use.
+- 3.Configure your Gemini API key and url inside the project as environment variables or else it won't work.
 
 Steps to run the backend locally :
-**1. Clone the Project**
+- **1. Clone the Project**
 
 git clone https://github.com/your-username/your-repo.git
 cd backend-folder
 
-**2. Build the Project**
+- **2. Build the Project**
 If using Maven: ./mvnw clean install
 Or if using Windows: mvn clean install
 
-**3. Run the Server**
+-  **3. Run the Server**
 ./mvnw spring-boot:run
 Or run directly in your IDE by launching EmailWriterSbApplication.java
 
 ### 2. React Application
 
 Steps:
-**1. Run Locally**
+- **1. Run Locally**
 cd frontend
 npm install
 npm start
 
-**2. Dependencies**
+- **2. Dependencies**
 npm install @mui/material @emotion/react @emotion/styled axios framer-motion @mui/icons-material
 
 *App will run on http://localhost:3000*
 
 ### 3. Chrome Extension 
 Steps:
-**1. Load Extension Locally**
+- **1. Load Extension Locally**
 Open Chrome → chrome://extensions
 Enable *Developer Mode*
 Click *Load unpacked*
